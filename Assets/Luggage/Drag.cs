@@ -24,6 +24,7 @@ public class Drag : MonoBehaviour
     {
         MoveObject();
     }
+
     private void MoveObject()
     {
         mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
@@ -47,10 +48,14 @@ public class Drag : MonoBehaviour
         }
         else
         {
-            isInMouse = false;
-            parentObject.transform.position = new Vector3();
             minVector = new Vector3(transform.position.x - 0.5f, transform.position.y - 0.5f, 0f);
             maxVector = new Vector3(transform.position.x + 0.5f, transform.position.y + 0.5f, 0f);
+        }
+
+        if (isInMouse && Input.GetMouseButtonUp(0) == true)
+        {
+            parentObject.transform.position = new Vector3((int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x + (int)(parentObject.transform.position.x - transform.position.x), (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + (int)(parentObject.transform.position.y - transform.position.y), 0f);
+            isInMouse = false;
         }
     }
 }
