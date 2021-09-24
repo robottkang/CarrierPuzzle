@@ -8,20 +8,35 @@ public class GameManager : MonoBehaviour
     [SerializeField] private GameObject HighlightTile;
     [SerializeField] private StageData carrierSize;
     [SerializeField] private int numberOfWidthColumn;
+    public int NumberOfWidthColumn
+    {
+        get => numberOfWidthColumn;
+        set => numberOfWidthColumn = value;
+    }
     [SerializeField] private int numberOfLengthColumn;
+    public int NumberOfLengthColumn
+    {
+        get => numberOfLengthColumn;
+        set => numberOfLengthColumn = value;
+    }
     [SerializeField] private float highlightTileMoveDistance;
-    private bool[,] IsColumnFilled;
-    private GameObject luggage;
+    private bool[,] isOnObject;
+    public bool[,] IsOnObject
+    {
+        get => isOnObject;
+        set => isOnObject = value;
+    }
+private GameObject luggage;
     private int luggageNumber;
 
     private void Start()
     {
-        IsColumnFilled = new bool[numberOfWidthColumn, numberOfLengthColumn];
+        isOnObject = new bool[numberOfWidthColumn, numberOfLengthColumn];
         for (int i = 0; i < numberOfWidthColumn; i++)
         {
             for (int j = 0; j < numberOfLengthColumn; j++)
             {
-                IsColumnFilled[i,j] = false;
+                isOnObject[i,j] = false;
             }
         }
     }
