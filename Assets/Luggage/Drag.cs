@@ -54,7 +54,7 @@ public class Drag : MonoBehaviour
 
         if (isInMouse && Input.GetMouseButtonUp(0) == true)
         {
-            transform.position = new Vector3((int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x + (int)(transform.position.x - transform.position.x), (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + (int)(transform.position.y - transform.position.y), 0f);
+            transform.position = new Vector3((int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).x - transform.position.x), (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).y - transform.position.y), 0f);
             isInMouse = false;
         }
     }
