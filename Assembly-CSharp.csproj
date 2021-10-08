@@ -53,14 +53,16 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\StageMenu\MoveToStage.cs" />
+    <Compile Include="Assets\StageMenu\Scripts\MoveToStage.cs" />
     <Compile Include="Assets\Luggage\Drag.cs" />
-    <Compile Include="Assets\Stage\GameManager.cs" />
-    <Compile Include="Assets\StartMenu\QuitButtonScript.cs" />
-    <Compile Include="Assets\StageMenu\StageNumber.cs" />
-    <Compile Include="Assets\StageMenu\StageMenuManager.cs" />
+    <Compile Include="Assets\Stage\Scripts\GameManager.cs" />
+    <Compile Include="Assets\StartMenu\Scripts\QuitButtonScript.cs" />
+    <Compile Include="Assets\StageMenu\Scripts\StageNumber.cs" />
+    <Compile Include="Assets\StageMenu\Scripts\StageMenuManager.cs" />
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
+    <Compile Include="Assets\Luggage\ParentScript.cs" />
+    <Compile Include="Assets\Scripts\LuggageData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
