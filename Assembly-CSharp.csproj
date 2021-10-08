@@ -61,7 +61,6 @@
     <Compile Include="Assets\StageMenu\Scripts\StageMenuManager.cs" />
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
-    <Compile Include="Assets\Luggage\ParentScript.cs" />
     <Compile Include="Assets\Scripts\LuggageData.cs" />
   </ItemGroup>
   <ItemGroup>

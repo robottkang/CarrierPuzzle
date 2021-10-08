@@ -3,7 +3,6 @@ using UnityEngine;
 public class Drag : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private StageData carrierSize;
     [SerializeField] private LuggageData luggageData;
     private Vector3 objectMinVector;
     private Vector3 objectMaxVector;
