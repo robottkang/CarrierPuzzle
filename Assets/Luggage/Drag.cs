@@ -8,6 +8,7 @@ public class Drag : MonoBehaviour
     private Vector3 objectMaxVector;
     private Vector3 mouseDefaultPosition;
     private Vector3 objectDefaultPosition;
+    public Vector3 ObjectDefaultPosition => objectDefaultPosition;
     private Vector3 mouseWorldPosition;
     private Vector3 offset;
     private bool isInMouse;

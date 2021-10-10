@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae06fdd74af169f41998e03847fc5bc4, type: 3}
   m_Name: Long
   m_EditorClassIdentifier: 
-  limitMax: {x: 0, y: 0, z: 0}
+  limitMax: {x: 4, y: 1, z: 0}
   limitMin: {x: 0, y: 0, z: 0}

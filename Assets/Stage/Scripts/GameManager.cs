@@ -11,21 +11,22 @@ public class GameManager : MonoBehaviour
     public int NumberOfLengthColumn => numberOfLengthColumn;
     [SerializeField] private float highlightTileMoveDistance;
     private bool[,] isOnObject;
-    public bool[,] IsOnObject => isOnObject;
-private GameObject luggage;
+    public bool[,] IsOnObject { get => isOnObject; set => isOnObject = value; }
+    private GameObject luggage;
     private int luggageNumber;
 
-    private void Start()
+    private void Awake()
     {
         isOnObject = new bool[numberOfWidthColumn, numberOfLengthColumn];
         for (int i = 0; i < numberOfWidthColumn; i++)
         {
             for (int j = 0; j < numberOfLengthColumn; j++)
             {
-                isOnObject[i,j] = false;
+                isOnObject[i, j] = false;
             }
         }
     }
+
     private void Update()
     {
         HighlightTileMoving();

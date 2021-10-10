@@ -57,11 +57,13 @@
     <Compile Include="Assets\Luggage\Drag.cs" />
     <Compile Include="Assets\Stage\Scripts\GameManager.cs" />
     <Compile Include="Assets\StartMenu\Scripts\QuitButtonScript.cs" />
+    <Compile Include="Assets\Luggage\CheckIsFilled.cs" />
     <Compile Include="Assets\StageMenu\Scripts\StageNumber.cs" />
     <Compile Include="Assets\StageMenu\Scripts\StageMenuManager.cs" />
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\LuggageData.cs" />
+    <Compile Include="Assets\Luggage\LuggageScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
