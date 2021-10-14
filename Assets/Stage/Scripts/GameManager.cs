@@ -12,8 +12,6 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float highlightTileMoveDistance;
     private bool[,] isOnObject;
     public bool[,] IsOnObject { get => isOnObject; set => isOnObject = value; }
-    private GameObject luggage;
-    private int luggageNumber;
 
     private void Awake()
     {
@@ -52,14 +50,9 @@ public class GameManager : MonoBehaviour
         if (Input.GetMouseButton(0) == true)
         {
             Vector3 mouseWorldPosition = new Vector3(
-            (float)(int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x * highlightTileMoveDistance + 0.5f,
-            (float)(int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y * highlightTileMoveDistance + 0.5f, 0f);
+            (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x * highlightTileMoveDistance + 0.5f,
+            (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y * highlightTileMoveDistance + 0.5f, 0f);
             HighlightTile.transform.position = mouseWorldPosition;
         }
-    }
-
-    private void CallObject()
-    {
-        luggage = Resources.Load("Luggage" + luggageNumber) as GameObject;
     }
 }
