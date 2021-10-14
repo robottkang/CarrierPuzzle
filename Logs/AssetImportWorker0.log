@@ -1964,3 +1964,36 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1183.839815 seconds.
+  path: Assets/StartMenu/Canvas.prefab
+  artifactKey: Guid(aac0982ea30251443ad5023ce4f853aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartMenu/Canvas.prefab using Guid(aac0982ea30251443ad5023ce4f853aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6d529e02d4062b4fd85543086ad11ea') in 0.125485 seconds 
+  Import took 0.129089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/StartMenu/StartButton.prefab
+  artifactKey: Guid(163da12c614e8fd478a3f881e2e3b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartMenu/StartButton.prefab using Guid(163da12c614e8fd478a3f881e2e3b8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c40caf33ab416db94ad53f47a2610a9') in 0.026620 seconds 
+  Import took 0.029548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.487028 seconds.
+  path: Assets/StartMenu/Canvas.prefab
+  artifactKey: Guid(aac0982ea30251443ad5023ce4f853aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartMenu/Canvas.prefab using Guid(aac0982ea30251443ad5023ce4f853aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43770b9c6b7d0311fd2b426473a77f0') in 0.020366 seconds 
+  Import took 0.023346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/StartMenu/ExitButton.prefab
+  artifactKey: Guid(f777fb98098d5234f914e1ddf43bac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StartMenu/ExitButton.prefab using Guid(f777fb98098d5234f914e1ddf43bac26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d62959e589aa726935cbdc5fb3962') in 0.023653 seconds 
+  Import took 0.026182 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
