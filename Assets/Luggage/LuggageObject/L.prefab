@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6127994117219703827}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12, y: 3, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6127994118506143353}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0226efd794e689f47ae4c2ca97bdf66b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 5753633955457051971, guid: 3ca6ab6e3b8a0704bafcb7fc146ad8e9, type: 3}
+  mainCamera: {fileID: 2863996940326955070, guid: 3ca6ab6e3b8a0704bafcb7fc146ad8e9, type: 3}
   parentObject: {fileID: 6127994117219703827}
 --- !u!1 &6127994117241916813
 GameObject:
@@ -63,7 +63,7 @@ GameObject:
   - component: {fileID: 6127994117241916814}
   - component: {fileID: 6127994117241916815}
   m_Layer: 0
-  m_Name: L4
+  m_Name: 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -176,7 +176,7 @@ GameObject:
   - component: {fileID: 6127994117654738721}
   - component: {fileID: 6127994117654738734}
   m_Layer: 0
-  m_Name: L3
+  m_Name: 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -289,7 +289,7 @@ GameObject:
   - component: {fileID: 6127994118136357006}
   - component: {fileID: 6127994118136357007}
   m_Layer: 0
-  m_Name: L2
+  m_Name: 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 6127994118506143355}
   - component: {fileID: 6127994118506143352}
   m_Layer: 0
-  m_Name: L1
+  m_Name: 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

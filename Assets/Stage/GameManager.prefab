@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5869205678314422964
+--- !u!1 &6451148337902622038
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5869205678314422963}
-  - component: {fileID: 5869205678314422962}
+  - component: {fileID: 6451148337902622036}
+  - component: {fileID: 6451148337902622037}
+  - component: {fileID: 6451148337902622035}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -17,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5869205678314422963
+--- !u!4 &6451148337902622036
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5869205678314422964}
+  m_GameObject: {fileID: 6451148337902622038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 180, y: 100, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -31,21 +32,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5869205678314422962
+--- !u!114 &6451148337902622037
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5869205678314422964}
+  m_GameObject: {fileID: 6451148337902622038}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ccefccc303e345498b766d94a129b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCamera: {fileID: 5753633955457051971, guid: 3ca6ab6e3b8a0704bafcb7fc146ad8e9, type: 3}
-  HighlightTile: {fileID: 5761504568450001411, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
+  HighlightTile: {fileID: 0}
   carrierSize: {fileID: 11400000, guid: 71c88da4c2c244847961a3f6fe8b8698, type: 2}
-  numberOfWidthColumn: 6
-  numberOfLengthColumn: 8
-  highlightTileMoveDistance: 1
+  carriers:
+  - {fileID: 3564012611935948561, guid: e87e68aed18537c4292c6af612982a62, type: 3}
+--- !u!114 &6451148337902622035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6451148337902622038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 040b70b4a1bba964f839f15c89bd3363, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

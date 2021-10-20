@@ -14,6 +14,7 @@ public class Drag : MonoBehaviour
 
     private void Awake()
     {
+        mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
         isInMouse = false;
     }
 

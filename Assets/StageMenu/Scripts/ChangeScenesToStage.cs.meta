@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 44bb9d4cf9aad7642b869bec5cc4f6b7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - stageMenuManager: {fileID: 757751121362990763, guid: fa154b96cbc2d074f88125471da51215, type: 3}
+  - stageNumber: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

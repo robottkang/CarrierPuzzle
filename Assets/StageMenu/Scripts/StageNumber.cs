@@ -3,7 +3,8 @@ using TMPro;
 
 public class StageNumber : MonoBehaviour
 {
-    [SerializeField] private int stageNumber;
+    [SerializeField] private int stageOrder;
+    public int stageNumber => stageOrder + 10 * (stageMenuNumber.StageMenuNumber - 1);
     private TextMeshProUGUI stageNumberText;
     [SerializeField] private StageMenuManager stageMenuNumber;
     private void Awake()
@@ -12,6 +13,6 @@ public class StageNumber : MonoBehaviour
     }
     private void Update()
     {
-        stageNumberText.text = "" + ((stageMenuNumber.StageMenuNumber - 1) * 10 + stageNumber);
+        stageNumberText.text = "" + stageNumber;
     }
 }
