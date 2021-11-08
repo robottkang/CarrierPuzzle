@@ -12,7 +12,7 @@ public class StageMenuManager : MonoBehaviour
 
     private void Awake()
     {
-        previousButton.SetActive(false);
+        //previousButton.SetActive(false);
     }
 
     public void ChangeToNextStage()

@@ -11,6 +11,7 @@ public class Drag : MonoBehaviour
     private Vector3 offset;
     private Vector3 childObjectPosition;
     private bool isInMouse;
+    public bool IsInMouse => isInMouse;
 
     private void Awake()
     {

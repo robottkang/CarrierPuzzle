@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Stage\Scripts\Fade.cs" />
     <Compile Include="Assets\Luggage\Scripts\Drag.cs" />
     <Compile Include="Assets\Stage\Scripts\GameManager.cs" />
     <Compile Include="Assets\Luggage\Temp\Rotation.cs" />
@@ -63,8 +64,8 @@
     <Compile Include="Assets\StageMenu\Scripts\StageMenuManager.cs" />
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
-    <Compile Include="Assets\Scripts\LuggageData.cs" />
     <Compile Include="Assets\StageMenu\Scripts\ChangeScenesToStage.cs" />
+    <Compile Include="Assets\Stage\Scripts\ChangePresentStageToNextStage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
