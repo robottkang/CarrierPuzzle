@@ -729,13 +729,41 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 810768614}
     - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
-      propertyPath: luggageSet.Array.size
-      value: 4
+      propertyPath: carriers.Array.size
+      value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: luggageSet.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: carriers.Array.data[3]
+      value: 
+      objectReference: {fileID: 1907354913596185378, guid: 57506aabd3f2e9d44893d13a2d7deb9f, type: 3}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: carriers.Array.data[4]
+      value: 
+      objectReference: {fileID: 8259995649494849549, guid: 093101dec83ee7446a766dbb10fd5525, type: 3}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: carriers.Array.data[5]
+      value: 
+      objectReference: {fileID: 5345108200716551583, guid: 31ef4102afc04e8459e5f346d220c541, type: 3}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: luggageSet.Array.data[1]
+      value: 
+      objectReference: {fileID: 778905449110330699, guid: 334a8d8c7bac4004aba99129d5dc1ee7, type: 3}
     - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
       propertyPath: luggageSet.Array.data[3]
       value: 
       objectReference: {fileID: 4604093424278837627, guid: 606909cda779eee46be9b06f0039ce9b, type: 3}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: luggageSet.Array.data[4]
+      value: 
+      objectReference: {fileID: 3356201868512319855, guid: 2d29341a714f0c0448f89fda3ee547b8, type: 3}
+    - target: {fileID: 2150642117484717351, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
+      propertyPath: luggageSet.Array.data[5]
+      value: 
+      objectReference: {fileID: 9154243175789019124, guid: 8d77c6a39977b0b4a9fe276356da0e16, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
 --- !u!1001 &2329307895907022966

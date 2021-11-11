@@ -55,8 +55,9 @@
   <ItemGroup>
     <Compile Include="Assets\Stage\Scripts\Fade.cs" />
     <Compile Include="Assets\Luggage\Scripts\Drag.cs" />
+    <Compile Include="Assets\Stage\Scripts\ChangePresentStageToNextStage.cs" />
     <Compile Include="Assets\Stage\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Luggage\Temp\Rotation.cs" />
+    <Compile Include="Assets\Luggage\Scripts\Rotation.cs" />
     <Compile Include="Assets\StartMenu\Scripts\QuitButtonScript.cs" />
     <Compile Include="Assets\Luggage\Scripts\CheckIsFilled.cs" />
     <Compile Include="Assets\Luggage\Scripts\LuggageScript.cs" />
@@ -65,7 +66,6 @@
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\StageMenu\Scripts\ChangeScenesToStage.cs" />
-    <Compile Include="Assets\Stage\Scripts\ChangePresentStageToNextStage.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

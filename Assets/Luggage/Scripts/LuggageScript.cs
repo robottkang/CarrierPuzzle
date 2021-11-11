@@ -1,7 +1,6 @@
 using UnityEngine;
 
-public class LuggageScript : Drag
+public class LuggageScript : MonoBehaviour
 {
-    [HideInInspector] public bool isWrong = false;
 
 }

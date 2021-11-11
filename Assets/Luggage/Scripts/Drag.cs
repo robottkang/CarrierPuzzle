@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
-    [SerializeField] private Camera mainCamera;
-    [SerializeField] private GameObject parentObject;
+    public Camera mainCamera;
+    //private Rotation rotation;
     private Vector3 mouseDefaultPosition;
     private Vector3 objectDefaultPosition;
     public Vector3 ObjectDefaultPosition => objectDefaultPosition;
@@ -15,6 +15,7 @@ public class Drag : MonoBehaviour
 
     private void Awake()
     {
+        //rotation = transform.GetComponent<Rotation>();
         mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
         isInMouse = false;
     }
@@ -33,7 +34,7 @@ public class Drag : MonoBehaviour
     {
         mouseWorldPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         mouseWorldPosition.z = 0f;
-        for (int i = 0; i < parentObject.transform.childCount; i++)
+        for (int i = 0; i < transform.childCount; i++)
         {
             if ((mainCamera.ScreenToWorldPoint(Input.mousePosition).x < childObjectPosition.x + 0.5f) &&
                 (mainCamera.ScreenToWorldPoint(Input.mousePosition).x > childObjectPosition.x - 0.5f) &&
@@ -41,6 +42,12 @@ public class Drag : MonoBehaviour
                 (mainCamera.ScreenToWorldPoint(Input.mousePosition).y > childObjectPosition.y - 0.5f) &&
                 Input.GetMouseButtonDown(0) == true) //이 오브젝트의 자식 오브젝트 안에 마우스가 클릭된다면
             {
+                offset = transform.position - childObjectPosition;
+                for(int j=0; j<transform.childCount; j++)
+                {
+                    transform.GetChild(j).position += offset;
+                }
+                transform.position = childObjectPosition;
                 mouseDefaultPosition = mouseWorldPosition; //마우스의 위치 초기값 초기화
                 objectDefaultPosition = transform.position; //위치 디폴트값 초기화
                 isInMouse = true;
@@ -53,12 +60,12 @@ public class Drag : MonoBehaviour
             }
             else
             {
-                childObjectPosition = parentObject.transform.GetChild(i).position;
+                childObjectPosition = transform.GetChild(i).position;
             }
 
             if (isInMouse && Input.GetMouseButtonUp(0) == true)
             {
-                transform.position = new Vector3((int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).x - transform.position.x), (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).y - transform.position.y), 0f);
+                transform.position = new Vector3((int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).x - transform.position.x + 0.5f) + 0.5f, (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y - (int)(mainCamera.ScreenToWorldPoint(Input.mousePosition).y - transform.position.y + 0.5f) + 0.5f, 0f);
                 isInMouse = false;
             }
         }

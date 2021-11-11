@@ -2,21 +2,24 @@ using UnityEngine;
 
 public class CheckIsFilled : MonoBehaviour
 {
-    [SerializeField] private LuggageScript luggageScript;
+    [SerializeField] private Drag drag;
     [SerializeField] private GameManager gameManager;
     [SerializeField] private GameObject parentObject;
+    private Camera mainCamera;
     private int width, length;
 
     private void Awake()
     {
         parentObject = transform.parent.gameObject;
+        //mainCamera = GameObject.Find("Main Camera").GetComponent<Camera>();
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
-        luggageScript = parentObject.GetComponent<LuggageScript>();
+        drag = parentObject.GetComponent<Drag>();
     }
 
     private void Update()
     {
         CheckColumn();
+        //DetectMouse();
     }
 
     private void LateUpdate()
@@ -43,10 +46,21 @@ public class CheckIsFilled : MonoBehaviour
                 transform.position.y > gameManager.stageData.LimitMax.y ||
                 transform.position.y < gameManager.stageData.LimitMin.y)
             {
-                parentObject.transform.position = luggageScript.ObjectDefaultPosition;
+                parentObject.transform.position = drag.ObjectDefaultPosition;
             }
         }
     }
+    /*
+    private void DetectMouse()
+    {
+        if (mainCamera.ScreenToWorldPoint(Input.mousePosition).x < (transform.position.x + 0.5f) &&
+           mainCamera.ScreenToWorldPoint(Input.mousePosition).x > (transform.position.x - 0.5f) &&
+           mainCamera.ScreenToWorldPoint(Input.mousePosition).y < (transform.position.y + 0.5f) &&
+           mainCamera.ScreenToWorldPoint(Input.mousePosition).y > (transform.position.y - 0.5f))
+        {
+                
+        }
+    }*/
 
     private void ResetColumn()
     {
