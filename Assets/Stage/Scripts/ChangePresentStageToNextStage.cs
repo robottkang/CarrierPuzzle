@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class ChangePresentStageToNextStage : LoadScene
 {
-    private StageMenuManager stageMenuManager;
-    private void Start()
+    private int stageNumber;
+
+    private void Awake()
     {
-        stageMenuManager = GameObject.Find("StageMenuManager").GetComponent<StageMenuManager>();
+        stageNumber = PlayerPrefs.GetInt("StageNumber");
     }
+
     public override void StageSceneLoder(string sceneName)
     {
-        stageMenuManager.EnteredStageNumber += 1;
+        PlayerPrefs.SetInt("StageNumber", ++stageNumber);
         base.StageSceneLoder(sceneName);
     }
 }

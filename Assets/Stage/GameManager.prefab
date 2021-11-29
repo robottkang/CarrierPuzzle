@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2150642117431722255
+--- !u!1 &6842352719467372190
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,9 +8,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2150642117431722254}
-  - component: {fileID: 2150642117484717351}
-  - component: {fileID: 2150642117484717345}
+  - component: {fileID: 6842352719467372191}
+  - component: {fileID: 6842352719319330822}
+  - component: {fileID: 6842352719319330816}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -18,13 +18,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2150642117431722254
+--- !u!4 &6842352719467372191
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2150642117431722255}
+  m_GameObject: {fileID: 6842352719467372190}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,46 +32,52 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2150642117484717351
+--- !u!114 &6842352719319330822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2150642117431722255}
+  m_GameObject: {fileID: 6842352719467372190}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8ccefccc303e345498b766d94a129b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backColor: {fileID: 0}
-  clearMenu: {fileID: 0}
-  HighlightTile: {fileID: 0}
+  testMode: 0
+  customStageNumber: 0
+  backColor: {fileID: 8553864836853007860, guid: 01a915b0b7b76a544a1aae061b373b5b, type: 3}
+  clearMenu: {fileID: 8890802384687772491, guid: 82fef2ebeb875df4ebe92d9ce7bc2eda, type: 3}
+  HighlightTile: {fileID: 5761504568450001411, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
   carriers:
   - {fileID: 3564012611935948561, guid: e87e68aed18537c4292c6af612982a62, type: 3}
   - {fileID: 6089564447219326926, guid: b2b61db0c294f054aad42858c373a577, type: 3}
   - {fileID: 1907354913596185378, guid: 0e6e7654aefb92d47ad88f6fac1357de, type: 3}
   - {fileID: 1907354913596185378, guid: 57506aabd3f2e9d44893d13a2d7deb9f, type: 3}
   - {fileID: 8259995649494849549, guid: 093101dec83ee7446a766dbb10fd5525, type: 3}
-  - {fileID: 6089564447219326926, guid: b2b61db0c294f054aad42858c373a577, type: 3}
+  - {fileID: 5345108200716551583, guid: 31ef4102afc04e8459e5f346d220c541, type: 3}
+  - {fileID: 5968449508313754435, guid: 5a0c52affdcb6fe46b002b2293747344, type: 3}
   luggageSet:
   - {fileID: 6562910059373825236, guid: 1850376f3ab655f45bf7dfe31abe75a6, type: 3}
-  - {fileID: 778905449110330699, guid: 2a8c98979c7855a4b89d7931667c19bd, type: 3}
+  - {fileID: 778905449110330699, guid: 334a8d8c7bac4004aba99129d5dc1ee7, type: 3}
   - {fileID: 8544570507543678245, guid: 4647978ec9275eb4b8455e46eab8c2d0, type: 3}
   - {fileID: 4604093424278837627, guid: 606909cda779eee46be9b06f0039ce9b, type: 3}
   - {fileID: 3356201868512319855, guid: 2d29341a714f0c0448f89fda3ee547b8, type: 3}
   - {fileID: 9154243175789019124, guid: 8d77c6a39977b0b4a9fe276356da0e16, type: 3}
+  - {fileID: 8959669900852285024, guid: b7adbdb9ed6ccfe4697968948383e19e, type: 3}
   stageData: {fileID: 11400000, guid: 62db196649a64114fa919197187a0cf3, type: 2}
   stageNumber: 0
---- !u!114 &2150642117484717345
+--- !u!114 &6842352719319330816
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2150642117431722255}
+  m_GameObject: {fileID: 6842352719467372190}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 040b70b4a1bba964f839f15c89bd3363, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 

@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private bool testMode;
+    [SerializeField] private int customStageNumber;
     [SerializeField] private GameObject backColor;
     [SerializeField] private GameObject clearMenu;
     [SerializeField] private GameObject HighlightTile;
@@ -14,7 +16,6 @@ public class GameManager : MonoBehaviour
     public List<GameObject> Carriers => carriers;
     public List<GameObject> LuggageSet => luggageSet;
     private Camera mainCamera;
-    private StageMenuManager stageMenuManager;
     [HideInInspector] public int stageNumber = 0;
     private int numberOfWidthColumn;
     private int numberOfLengthColumn;
@@ -28,6 +29,8 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        if (!testMode) stageNumber = PlayerPrefs.GetInt("StageNumber");
+        else stageNumber = customStageNumber;
         backColor.SetActive(false);
         clearMenu.SetActive(false);
         checkField = false;
@@ -36,11 +39,6 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        if (GameObject.Find("StageMenuManager") != null)
-        {
-            stageMenuManager = GameObject.Find("StageMenuManager").GetComponent<StageMenuManager>();
-            stageNumber = stageMenuManager.EnteredStageNumber;
-        }
         numberOfWidthColumn = (int)carriers[stageNumber].transform.lossyScale.x;
         numberOfLengthColumn = (int)carriers[stageNumber].transform.lossyScale.y;
         isOnObject = new bool[numberOfWidthColumn, numberOfLengthColumn];
@@ -114,11 +112,12 @@ public class GameManager : MonoBehaviour
         {
             backColor.SetActive(true);
             clearMenu.SetActive(true);
+            if(!testMode)
+                if (PlayerPrefs.GetInt("ClearData") < stageNumber)
+                {
+                    PlayerPrefs.SetInt("ClearData", stageNumber);
+                    Debug.Log(PlayerPrefs.GetInt("ClearData"));
+                }
         }
-    }
-
-    public void DestroyUsedStageMenuManager()
-    {
-        Destroy(GameObject.Find("StageMenuManager"));
     }
 }

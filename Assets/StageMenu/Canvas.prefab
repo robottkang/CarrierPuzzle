@@ -31,7 +31,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492431534657419}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -295,6 +295,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492429734412910}
 --- !u!1 &9219492429775578187
@@ -459,6 +461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492429775578188}
 --- !u!1 &9219492429806768304
@@ -492,7 +496,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492431373201802}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -625,7 +629,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492430107410138}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -758,7 +762,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492430897656822}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -891,7 +895,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492430779430049}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1155,6 +1159,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492430107410140}
 --- !u!1 &9219492430306182920
@@ -1188,7 +1194,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492429734412908}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1320,7 +1326,16 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 9219492431000565537}
+  - {fileID: 9219492430001848201}
+  - {fileID: 9219492429965035311}
+  - {fileID: 9219492429831356963}
+  - {fileID: 9219492431206291914}
+  - {fileID: 9219492431224390227}
+  - {fileID: 9219492429539415477}
+  - {fileID: 9219492430576522112}
+  - {fileID: 9219492431370658937}
+  - {fileID: 9219492429806768307}
+  - {fileID: 9219492430306182923}
   - {fileID: 9219492430900233989}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1422,7 +1437,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492430629278396}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1686,6 +1701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492430629278398}
 --- !u!1 &9219492430779430078
@@ -1850,6 +1867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492430779430051}
 --- !u!1 &9219492430897656823
@@ -2014,6 +2033,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492430897656824}
 --- !u!1 &9219492430900233986
@@ -2046,7 +2067,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 9219492430469629822}
-  m_RootOrder: 1
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -2091,51 +2112,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &9219492431000565566
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 9219492431000565537}
-  m_Layer: 5
-  m_Name: Stages1-10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &9219492431000565537
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9219492431000565566}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 9219492430001848201}
-  - {fileID: 9219492429965035311}
-  - {fileID: 9219492429831356963}
-  - {fileID: 9219492431206291914}
-  - {fileID: 9219492431224390227}
-  - {fileID: 9219492429539415477}
-  - {fileID: 9219492430576522112}
-  - {fileID: 9219492431370658937}
-  - {fileID: 9219492429806768307}
-  - {fileID: 9219492430306182923}
-  m_Father: {fileID: 9219492430469629822}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &9219492431206291915
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,7 +2143,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492429775578186}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2300,7 +2276,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492431525646021}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2564,6 +2540,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492431312892249}
 --- !u!1 &9219492431370658934
@@ -2597,7 +2575,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9219492431312892247}
-  m_Father: {fileID: 9219492431000565537}
+  m_Father: {fileID: 9219492430469629822}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -2861,6 +2839,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492431373201804}
 --- !u!1 &9219492431525646018
@@ -3025,6 +3005,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492431525646023}
 --- !u!1 &9219492431534657416
@@ -3189,5 +3171,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
   stageMenuManager: {fileID: 0}
   stageNumber: {fileID: 9219492431534657421}

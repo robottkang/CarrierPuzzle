@@ -9,6 +9,7 @@ public class StageNumber : MonoBehaviour
     [SerializeField] private StageMenuManager stageMenuNumber;
     private void Awake()
     {
+        if (stageMenuNumber == null) stageMenuNumber = GameObject.Find("StageMenuNumber").GetComponent<StageMenuManager>();
         stageNumberText = GetComponent<TextMeshProUGUI>();
     }
     private void Update()

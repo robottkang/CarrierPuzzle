@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Stage\Carrier\Exception Tile\ExceptionTileScript.cs" />
     <Compile Include="Assets\Stage\Scripts\Fade.cs" />
     <Compile Include="Assets\Luggage\Scripts\Drag.cs" />
     <Compile Include="Assets\Stage\Scripts\ChangePresentStageToNextStage.cs" />
@@ -66,6 +67,7 @@
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\StageMenu\Scripts\ChangeScenesToStage.cs" />
+    <Compile Include="Assets\StageMenu\Scripts\StageLock.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -678,6 +680,9 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>

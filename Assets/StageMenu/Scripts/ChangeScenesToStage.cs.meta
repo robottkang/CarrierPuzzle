@@ -5,6 +5,7 @@ MonoImporter:
   serializedVersion: 2
   defaultReferences:
   - stageMenuManager: {fileID: 757751121362990763, guid: fa154b96cbc2d074f88125471da51215, type: 3}
+  - GameData: {fileID: 753498132956794938, guid: 577531ca418df344f9f5e6b732a8a288, type: 3}
   - stageNumber: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}

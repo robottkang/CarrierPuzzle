@@ -2,13 +2,18 @@ using UnityEngine;
 
 public class ChangeScenesToStage : LoadScene
 {
-    [SerializeField] private GameObject stageMenuManager;
-    [SerializeField] private StageNumber stageNumber;
+    [SerializeField] StageNumber stageNumber;
+    private void Awake()
+    {
+        if (stageNumber == null) stageNumber = gameObject.GetComponentInChildren<StageNumber>();
+    }
 
     public override void StageSceneLoder(string sceneName)
     {
-        stageMenuManager.GetComponent<StageMenuManager>().EnteredStageNumber = stageNumber.stageNumber;
-        base.StageSceneLoder(sceneName);
-        DontDestroyOnLoad(stageMenuManager);
+        if ((PlayerPrefs.GetInt("ClearData") + 1) >= stageNumber.stageNumber)
+        {
+            PlayerPrefs.SetInt("StageNumber", stageNumber.stageNumber);
+            base.StageSceneLoder(sceneName);
+        }
     }
 }

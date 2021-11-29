@@ -120,7 +120,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 6842352719319330816, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
         m_TargetAssemblyTypeName: LoadScene, Assembly-CSharp
         m_MethodName: StageSceneLoder
         m_Mode: 5

@@ -161,6 +161,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c025091bb35f2f54c84ddcaf0240a564, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDontDestroyOnLoad: 0
+  dontDestroyOnLoadObject: 
 --- !u!1 &8890802384283692774
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +562,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e98023d34b83f4c4eb8c251549e6e4bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameManager: {fileID: 0}
+  gameManager: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
   image: {fileID: 8890802384687772500}
   max: 24

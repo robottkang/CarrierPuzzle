@@ -4,15 +4,22 @@ public class StageMenuManager : MonoBehaviour
 {
     [SerializeField] private int stageMenuNumber = 1;
     public int StageMenuNumber { get => stageMenuNumber; set => stageMenuNumber = value; }
-    private int enteredStageNumber;
-    public int EnteredStageNumber { get => enteredStageNumber; set => enteredStageNumber = value; }
     [SerializeField] private int theNumberOfStageMenu = 5;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
+    [SerializeField] private bool openAllStage;
+    [SerializeField] private bool resetStage;
 
     private void Awake()
     {
+        Debug.Log(PlayerPrefs.GetInt("ClearData"));
         //previousButton.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (openAllStage == true) PlayerPrefs.SetInt("ClearData", 10);
+        if (resetStage) PlayerPrefs.SetInt("ClearData", 0);
     }
 
     public void ChangeToNextStage()
