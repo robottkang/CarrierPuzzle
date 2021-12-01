@@ -69,24 +69,20 @@ public class GameManager : MonoBehaviour
             (mainCamera.ScreenToWorldPoint(Input.mousePosition).y > carriers[stageNumber].transform.position.y - (carriers[stageNumber].transform.lossyScale.y / 2)) &&
              Input.GetMouseButton(0) == true)
         {
-            HighlightTile.SetActive(true);
+            HighlightTileMoving();
         }
         else
         {
-            HighlightTile.SetActive(false);
-            HighlightTile.transform.position = new Vector3(-0.5f, 0.5f, 0f);
+            HighlightTile.transform.position = new Vector3(-0.5f, 0.5f, 1.5f);
         }
     }
 
     private void HighlightTileMoving()
     {
-        if (Input.GetMouseButton(0) == true)
-        {
-            Vector3 mouseWorldPosition = new Vector3(
-            (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x + 0.5f,
-            (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + 0.5f, 0f);
-            HighlightTile.transform.position = mouseWorldPosition;
-        }
+        Vector3 mouseWorldPosition = new Vector3(
+        (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x + 0.5f,
+        (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + 0.5f, 1.5f);
+        HighlightTile.transform.position = mouseWorldPosition;
     }
 
     private void CheckIsClearStage()

@@ -25,7 +25,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6842352719467372190}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -56,7 +56,11 @@ MonoBehaviour:
   - {fileID: 1907354913596185378, guid: 57506aabd3f2e9d44893d13a2d7deb9f, type: 3}
   - {fileID: 8259995649494849549, guid: 093101dec83ee7446a766dbb10fd5525, type: 3}
   - {fileID: 5345108200716551583, guid: 31ef4102afc04e8459e5f346d220c541, type: 3}
+  - {fileID: 4833519304536188542, guid: 143298f068349434d9da337cd9114834, type: 3}
   - {fileID: 5968449508313754435, guid: 5a0c52affdcb6fe46b002b2293747344, type: 3}
+  - {fileID: 6613625737111927989, guid: ce61f01b004bd8840bae11763ccde3ec, type: 3}
+  - {fileID: 7566899158820561205, guid: c0d8172b494390d4c850ea99156d8fb0, type: 3}
+  - {fileID: 3564012611935948561, guid: c10621cdfa400364588af900e9b2a018, type: 3}
   luggageSet:
   - {fileID: 6562910059373825236, guid: 1850376f3ab655f45bf7dfe31abe75a6, type: 3}
   - {fileID: 778905449110330699, guid: 334a8d8c7bac4004aba99129d5dc1ee7, type: 3}
@@ -64,7 +68,11 @@ MonoBehaviour:
   - {fileID: 4604093424278837627, guid: 606909cda779eee46be9b06f0039ce9b, type: 3}
   - {fileID: 3356201868512319855, guid: 2d29341a714f0c0448f89fda3ee547b8, type: 3}
   - {fileID: 9154243175789019124, guid: 8d77c6a39977b0b4a9fe276356da0e16, type: 3}
+  - {fileID: 7202719546211667473, guid: d1bdffc48b2504b40af7d9f8d0697df5, type: 3}
   - {fileID: 8959669900852285024, guid: b7adbdb9ed6ccfe4697968948383e19e, type: 3}
+  - {fileID: 6689955659483814532, guid: d119baec4a41ea240abc2d4050ba4ad5, type: 3}
+  - {fileID: 6391787553768934959, guid: 1672da12888cce04d84cb7bc953d242b, type: 3}
+  - {fileID: 709758180469920588, guid: b2df18480b9a3f44ead80fbac6be3bda, type: 3}
   stageData: {fileID: 11400000, guid: 62db196649a64114fa919197187a0cf3, type: 2}
   stageNumber: 0
 --- !u!114 &6842352719319330816

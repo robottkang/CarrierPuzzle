@@ -6,7 +6,6 @@ public class Rotation : MonoBehaviour
 {
     private Drag drag;
     public Camera mainCamera;
-    private Vector3 childObjectPosition;
     [HideInInspector] public bool isDownMouseLeftButton;
 
     private void Awake()

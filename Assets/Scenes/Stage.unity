@@ -363,6 +363,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HighlightTile
       objectReference: {fileID: 0}
+    - target: {fileID: 5761504568450001411, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5761504568450001438, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -377,7 +381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5761504568450001438, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 5761504568450001438, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
       propertyPath: m_LocalRotation.w
@@ -830,17 +834,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 6842352719319330816, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6842352719319330816, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
       propertyPath: testMode
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
       propertyPath: backColor
@@ -856,16 +852,8 @@ PrefabInstance:
       objectReference: {fileID: 810768614}
     - target: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
       propertyPath: customStageNumber
-      value: 6
+      value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
-      propertyPath: luggageSet.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 6842352719319330822, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
-      propertyPath: luggageSet.Array.data[6]
-      value: 
-      objectReference: {fileID: 8959669900852285024, guid: b7adbdb9ed6ccfe4697968948383e19e, type: 3}
     - target: {fileID: 6842352719467372190, guid: 5ad42c0bc1bb70c4eba8f17167f0060a, type: 3}
       propertyPath: m_Name
       value: GameManager

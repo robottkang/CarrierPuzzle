@@ -15,7 +15,7 @@ public class StageLock : MonoBehaviour
 
     private void CheckIsStageClear()
     {
-        if ((PlayerPrefs.GetInt("ClearData") + 1) >= (gameObject.GetComponentInChildren<StageNumber>().stageNumber))
+        if ((PlayerPrefs.GetInt("ClearData") + 1) >= gameObject.GetComponentInChildren<StageNumber>().stageNumber)
         {
             gameObject.GetComponent<Image>().color = activeColor;
         }
