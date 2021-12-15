@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("-Test Mode")]
     [SerializeField] private bool testMode;
     [SerializeField] private int customStageNumber;
+    [Space(20)]
     [SerializeField] private GameObject backColor;
     [SerializeField] private GameObject clearMenu;
-    [SerializeField] private GameObject HighlightTile;
+    [Header("-HighlightTile")]
+    [SerializeField] private GameObject highlightTile;
+    [SerializeField] private float highlightTileZ;
+    [Space(20)]
     [SerializeField] private List<GameObject> carriers = new List<GameObject>();
     [SerializeField] private List<GameObject> luggageSet = new List<GameObject>();
     public StageData stageData;
@@ -50,7 +55,7 @@ public class GameManager : MonoBehaviour
             }
         }
         Instantiate(carriers[stageNumber], new Vector3(5, 6, 2), Quaternion.identity);
-        Instantiate(luggageSet[stageNumber], new Vector3(12, 1, 0), Quaternion.identity);
+        Instantiate(luggageSet[stageNumber], luggageSet[stageNumber].transform.position, Quaternion.identity);
     }
 
     private void Update()
@@ -73,7 +78,7 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            HighlightTile.transform.position = new Vector3(-0.5f, 0.5f, 1.5f);
+            highlightTile.transform.position = new Vector3(-0.5f, 0.5f, highlightTileZ);
         }
     }
 
@@ -81,8 +86,8 @@ public class GameManager : MonoBehaviour
     {
         Vector3 mouseWorldPosition = new Vector3(
         (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).x + 0.5f,
-        (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + 0.5f, 1.5f);
-        HighlightTile.transform.position = mouseWorldPosition;
+        (int)mainCamera.ScreenToWorldPoint(Input.mousePosition).y + 0.5f, highlightTileZ);
+        highlightTile.transform.position = mouseWorldPosition;
     }
 
     private void CheckIsClearStage()

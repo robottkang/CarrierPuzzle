@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ChangeScenesToStage : LoadScene
+public class MoveScenesToStage : LoadScene
 {
     [SerializeField] StageNumber stageNumber;
     private void Awake()

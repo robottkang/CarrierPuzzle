@@ -123,336 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &207535970 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492431370658934, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &207535975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207535970}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
 --- !u!114 &298866147 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
   m_PrefabInstance: {fileID: 757751121646609799}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823710508}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ede2c2668f4f901498b5a6a82172bd3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &317140162 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492431373201805, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &408438856 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492429775578189, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &430562007 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492430576522113, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &430562012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430562007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!1 &658522145 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492431224390224, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &658522150
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 658522145}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!114 &739895440 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492430897656825, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &823710508 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 757751121362990763, guid: fa154b96cbc2d074f88125471da51215, type: 3}
-  m_PrefabInstance: {fileID: 757751121646609799}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &823710509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 823710508}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 040b70b4a1bba964f839f15c89bd3363, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isDontDestroyOnLoad: 0
-  dontDestroyOnLoadObject: 
---- !u!1 &893202886 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492429831356960, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &893202891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893202886}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!114 &977525321 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492430629278399, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1057334414 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492431312892246, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1217518214 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492431525646020, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1376739171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492430306182920, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1376739176
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376739171}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!1 &1452105297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492429806768304, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1452105302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1452105297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!114 &1637766094 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492430779430048, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1640685034 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492429734412911, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1664053608 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492430107410141, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1691451908 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492429539415474, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1691451913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691451908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!1 &1804739698 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492431206291915, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1804739703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1804739698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!114 &1860932113 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 9219492431534657418, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 44bb9d4cf9aad7642b869bec5cc4f6b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!1 &1894967986 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492430001848198, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1894967991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1894967986}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
---- !u!1 &1972229539 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 9219492429965035308, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-  m_PrefabInstance: {fileID: 9219492430622446993}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1972229544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972229539}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed4dbafad5f2c9d4a96a4cb4ea015686, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  activeColor: {r: 1, g: 1, b: 1, a: 1}
-  deactiveColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
 --- !u!1001 &757751121646609799
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -507,22 +188,6 @@ PrefabInstance:
     - target: {fileID: 757751121362990763, guid: fa154b96cbc2d074f88125471da51215, type: 3}
       propertyPath: m_Name
       value: StageMenuManager
-      objectReference: {fileID: 0}
-    - target: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
-      propertyPath: reset
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
-      propertyPath: nextButton
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
-      propertyPath: openAllStage
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
-      propertyPath: previousButton
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa154b96cbc2d074f88125471da51215, type: 3}
@@ -709,8 +374,20 @@ PrefabInstance:
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7515854613708378644, guid: f02ddb2474d16934095025f336b6aea7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515854613708378644, guid: f02ddb2474d16934095025f336b6aea7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515854613708378644, guid: f02ddb2474d16934095025f336b6aea7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7515854613708378644, guid: f02ddb2474d16934095025f336b6aea7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7515854613708378644, guid: f02ddb2474d16934095025f336b6aea7, type: 3}
       propertyPath: m_LocalPosition.y
@@ -761,142 +438,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 9219492429539415476, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1860932113}
-    - target: {fileID: 9219492429539415476, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429539415476, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492429734412910, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492429734412911, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492429734412911, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429734412911, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492429775578188, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492429775578189, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492429775578189, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429775578189, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429806768306, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 317140162}
-    - target: {fileID: 9219492429806768306, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429806768306, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429831356962, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1664053608}
-    - target: {fileID: 9219492429831356962, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429831356962, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429965035310, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 739895440}
-    - target: {fileID: 9219492429965035310, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492429965035310, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848200, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1637766094}
-    - target: {fileID: 9219492430001848200, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848200, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848203, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_Color.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848203, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848203, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430001848203, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492430107410140, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492430107410141, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492430107410141, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430107410141, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430306182922, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1640685034}
-    - target: {fileID: 9219492430306182922, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430306182922, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492430469629818, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -985,50 +538,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 9219492430576522115, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 977525321}
-    - target: {fileID: 9219492430576522115, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430576522115, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492430629278398, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492430629278399, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492430629278399, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430629278399, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430779430048, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: GameData
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430779430048, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492430779430048, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430779430048, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492430779430051, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
@@ -1037,114 +550,18 @@ PrefabInstance:
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492430897656825, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492430897656825, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492430897656825, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431206291917, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 408438856}
-    - target: {fileID: 9219492431206291917, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431206291917, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431224390226, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1217518214}
-    - target: {fileID: 9219492431224390226, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431224390226, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431312892246, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492431312892246, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431312892246, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492431312892249, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492431370658936, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 1057334414}
-    - target: {fileID: 9219492431370658936, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: StageSceneLoder
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431370658936, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: ChangeScenesToStage, Assembly-CSharp
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492431373201804, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492431373201805, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492431373201805, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431373201805, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431525646020, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492431525646020, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431525646020, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492431525646023, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 
       objectReference: {fileID: 298866147}
-    - target: {fileID: 9219492431534657418, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: stageMenuManager
-      value: 
-      objectReference: {fileID: 823710508}
-    - target: {fileID: 9219492431534657418, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: isDontDestroyOnLoad
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9219492431534657418, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
-      propertyPath: dontDestroyOnLoadObject
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 9219492431534657421, guid: 86eaaef529f4ca64093bbe984221f84e, type: 3}
       propertyPath: stageMenuNumber
       value: 

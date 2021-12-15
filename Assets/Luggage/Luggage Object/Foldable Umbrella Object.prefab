@@ -74,7 +74,7 @@ GameObject:
   - component: {fileID: 8802970174861059325}
   - component: {fileID: 7600598704692418170}
   m_Layer: 0
-  m_Name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_0"
+  m_Name: Foldable Unbrella Image_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,7 +172,7 @@ GameObject:
   - component: {fileID: 4509850848566942380}
   - component: {fileID: 1295003936622237027}
   m_Layer: 0
-  m_Name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_1"
+  m_Name: Foldable Unbrella Image_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 6083566866031518486}
   - component: {fileID: 6426471655878565848}
   m_Layer: 0
-  m_Name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_2"
+  m_Name: Foldable Unbrella Image_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

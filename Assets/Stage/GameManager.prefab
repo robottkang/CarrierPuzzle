@@ -48,7 +48,8 @@ MonoBehaviour:
   customStageNumber: 0
   backColor: {fileID: 8553864836853007860, guid: 01a915b0b7b76a544a1aae061b373b5b, type: 3}
   clearMenu: {fileID: 8890802384687772491, guid: 82fef2ebeb875df4ebe92d9ce7bc2eda, type: 3}
-  HighlightTile: {fileID: 5761504568450001411, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
+  highlightTile: {fileID: 5761504568450001411, guid: b8d3c92627e9bbe46a41963f803e9e14, type: 3}
+  highlightTileZ: -0.5
   carriers:
   - {fileID: 3564012611935948561, guid: e87e68aed18537c4292c6af612982a62, type: 3}
   - {fileID: 6089564447219326926, guid: b2b61db0c294f054aad42858c373a577, type: 3}
@@ -58,7 +59,7 @@ MonoBehaviour:
   - {fileID: 5345108200716551583, guid: 31ef4102afc04e8459e5f346d220c541, type: 3}
   - {fileID: 4833519304536188542, guid: 143298f068349434d9da337cd9114834, type: 3}
   - {fileID: 5968449508313754435, guid: 5a0c52affdcb6fe46b002b2293747344, type: 3}
-  - {fileID: 6613625737111927989, guid: ce61f01b004bd8840bae11763ccde3ec, type: 3}
+  - {fileID: 5829614048113398645, guid: ce61f01b004bd8840bae11763ccde3ec, type: 3}
   - {fileID: 7566899158820561205, guid: c0d8172b494390d4c850ea99156d8fb0, type: 3}
   - {fileID: 3564012611935948561, guid: c10621cdfa400364588af900e9b2a018, type: 3}
   luggageSet:

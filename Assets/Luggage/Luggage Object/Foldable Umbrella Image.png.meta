@@ -4,13 +4,13 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 9097610483818269198
-    second: "\uC811\uC774\uC2DD \uC6B0\uC0B01_0"
+    second: Foldable Unbrella Image_0
   - first:
       213: -3110637167760031154
-    second: "\uC811\uC774\uC2DD \uC6B0\uC0B01_1"
+    second: Foldable Unbrella Image_1
   - first:
       213: 8123358178922049685
-    second: "\uC811\uC774\uC2DD \uC6B0\uC0B01_2"
+    second: Foldable Unbrella Image_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -100,15 +100,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_0"
+      name: Foldable Unbrella Image_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 800
+        y: 797
         width: 400
         height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -121,15 +121,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_1"
+      name: Foldable Unbrella Image_1
       rect:
         serializedVersion: 2
         x: 0
-        y: 400
+        y: 397
         width: 400
         height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -142,7 +142,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: "\uC811\uC774\uC2DD \uC6B0\uC0B01_2"
+      name: Foldable Unbrella Image_2
       rect:
         serializedVersion: 2
         x: 0
@@ -150,7 +150,7 @@ TextureImporter:
         width: 400
         height: 400
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

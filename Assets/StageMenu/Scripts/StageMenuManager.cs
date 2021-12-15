@@ -5,10 +5,13 @@ public class StageMenuManager : MonoBehaviour
     [SerializeField] private int stageMenuNumber = 1;
     public int StageMenuNumber { get => stageMenuNumber; set => stageMenuNumber = value; }
     [SerializeField] private int theNumberOfStageMenu = 5;
+    [Header("-Button Manager")]
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
+    [Header("-Stage Manager")]
     [SerializeField] private bool openAllStage;
     [SerializeField] private bool resetStage;
+    [SerializeField] private bool openCutScene;
 
     private void Awake()
     {
@@ -20,6 +23,8 @@ public class StageMenuManager : MonoBehaviour
     {
         if (openAllStage == true) PlayerPrefs.SetInt("ClearData", 10);
         if (resetStage) PlayerPrefs.SetInt("ClearData", 0);
+        if (openCutScene) PlayerPrefs.SetInt("IsOpenCutScene", 1);
+        else PlayerPrefs.SetInt("IsOpenCutScene", 0);
     }
 
     public void ChangeToNextStage()
