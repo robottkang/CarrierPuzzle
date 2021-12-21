@@ -17,14 +17,12 @@ public class MovePresentStageToNextStage : LoadScene
         if (stageNumber < 10)
         {
             PlayerPrefs.SetInt("StageNumber", ++stageNumber);
-        }
-        Debug.Log("Stage Number : " + stageNumber);
-        if (stageNumber <= 10)
-        {
+            Debug.Log("Stage Number : " + stageNumber);
             base.StageSceneLoder(sceneName);
         }
         else// 10 stage 완료하면 CutScene으로
         {
+            Debug.Log("All Stage Clear");
             PlayerPrefs.SetInt("IsOpenCutScene", 1);
             base.StageSceneLoder(cutScene);
         }

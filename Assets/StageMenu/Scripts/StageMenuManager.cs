@@ -11,7 +11,8 @@ public class StageMenuManager : MonoBehaviour
     [Header("-Stage Manager")]
     [SerializeField] private bool openAllStage;
     [SerializeField] private bool resetStage;
-    [SerializeField] private bool openCutScene;
+    [SerializeField] private bool _openCutScene;
+    public bool openCutScene => _openCutScene;
 
     private void Awake()
     {
@@ -23,8 +24,6 @@ public class StageMenuManager : MonoBehaviour
     {
         if (openAllStage == true) PlayerPrefs.SetInt("ClearData", 10);
         if (resetStage) PlayerPrefs.SetInt("ClearData", 0);
-        if (openCutScene) PlayerPrefs.SetInt("IsOpenCutScene", 1);
-        else PlayerPrefs.SetInt("IsOpenCutScene", 0);
     }
 
     public void ChangeToNextStage()

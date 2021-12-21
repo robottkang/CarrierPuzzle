@@ -54,7 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Stage\Carrier\Exception Tile\ExceptionTileScript.cs" />
-    <Compile Include="Assets\Stage\Scripts\Fade.cs" />
+    <Compile Include="Assets\Stage\Scripts\StageFade.cs" />
+    <Compile Include="Assets\CutScene\CutFade.cs" />
+    <Compile Include="Assets\Scripts\Fade.cs" />
     <Compile Include="Assets\Luggage\Scripts\Drag.cs" />
     <Compile Include="Assets\Stage\Scripts\MovePresentStageToNextStage.cs" />
     <Compile Include="Assets\Stage\Scripts\GameManager.cs" />
@@ -62,12 +64,13 @@
     <Compile Include="Assets\StartMenu\Scripts\QuitButtonScript.cs" />
     <Compile Include="Assets\Luggage\Scripts\CheckIsFilled.cs" />
     <Compile Include="Assets\StageMenu\Scripts\StageNumber.cs" />
+    <Compile Include="Assets\StageMenu\Scripts\MoveSceneToCutScene.cs" />
     <Compile Include="Assets\StageMenu\Scripts\StageMenuManager.cs" />
     <Compile Include="Assets\StageMenu\Scripts\StageLock.cs" />
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\StageMenu\Scripts\MoveScenesToStage.cs" />
-    <Compile Include="Assets\StageMenu\Scripts\MoveSceneToCutScene.cs" />
+    <Compile Include="Assets\CutScene\CutSceneManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
