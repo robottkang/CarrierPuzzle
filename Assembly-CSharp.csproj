@@ -56,6 +56,7 @@
     <Compile Include="Assets\Stage\Carrier\Exception Tile\ExceptionTileScript.cs" />
     <Compile Include="Assets\Stage\Scripts\StageFade.cs" />
     <Compile Include="Assets\CutScene\CutFade.cs" />
+    <Compile Include="Assets\CutScene\QuitButtonFade.cs" />
     <Compile Include="Assets\Scripts\Fade.cs" />
     <Compile Include="Assets\Luggage\Scripts\Drag.cs" />
     <Compile Include="Assets\Stage\Scripts\MovePresentStageToNextStage.cs" />
@@ -70,7 +71,7 @@
     <Compile Include="Assets\Scripts\StageData.cs" />
     <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\StageMenu\Scripts\MoveScenesToStage.cs" />
-    <Compile Include="Assets\CutScene\CutSceneManager.cs" />
+    <Compile Include="Assets\Stage\Scripts\DisplayThePresentStageNumber.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

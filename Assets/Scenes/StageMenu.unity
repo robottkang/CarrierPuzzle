@@ -189,6 +189,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: StageMenuManager
       objectReference: {fileID: 0}
+    - target: {fileID: 757751121886720100, guid: fa154b96cbc2d074f88125471da51215, type: 3}
+      propertyPath: resetStage
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa154b96cbc2d074f88125471da51215, type: 3}
 --- !u!1001 &1248076454535255103

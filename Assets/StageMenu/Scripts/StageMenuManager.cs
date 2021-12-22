@@ -10,7 +10,7 @@ public class StageMenuManager : MonoBehaviour
     [SerializeField] private GameObject previousButton;
     [Header("-Stage Manager")]
     [SerializeField] private bool openAllStage;
-    [SerializeField] private bool resetStage;
+    [SerializeField] private bool resetClear;
     [SerializeField] private bool _openCutScene;
     public bool openCutScene => _openCutScene;
 
@@ -22,8 +22,12 @@ public class StageMenuManager : MonoBehaviour
 
     private void Update()
     {
-        if (openAllStage == true) PlayerPrefs.SetInt("ClearData", 10);
-        if (resetStage) PlayerPrefs.SetInt("ClearData", 0);
+        if (openAllStage) PlayerPrefs.SetInt("ClearData", 10);
+        if (resetClear)
+        {
+            PlayerPrefs.SetInt("ClearData", 0);
+            PlayerPrefs.SetInt("IsOpenCutScene", 0);
+        }
     }
 
     public void ChangeToNextStage()
